@@ -42,8 +42,9 @@ public class ViewDistance extends JavaPlugin {
       }
 
       if(args.length == 0){
+        sendMsg(sender, "Current Information:");
         for(World w:getServer().getWorlds()) {
-          sendMsg(sender, "Map: " + w.getName() + " view-distance: " + w.getViewDistance());
+          sendMsg(sender, "  Map: " + w.getName() + " view-distance: " + w.getViewDistance());
         }
         return true;
       }
