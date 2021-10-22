@@ -1,0 +1,12 @@
+name: ViewDistance
+version: 1.0
+api-version: 1.17
+description: Add a command to set the view distance.
+author: kubotan
+website: https://gorogoro.space/
+main: space.gorogoro.viewdistance.ViewDistance
+
+commands:
+  viewdistance:
+    description: Set the view distance of the server.
+    usage: /<command> <world> <view distance> - The view distance should be a number between 3 and 32.
