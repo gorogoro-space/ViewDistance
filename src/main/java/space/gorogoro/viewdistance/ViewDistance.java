@@ -78,7 +78,9 @@ public class ViewDistance extends JavaPlugin {
       }
 
       if(w.getViewDistance() == newDistance) {
-        sendMsg(sender, "There is no change in the view distance.");
+        if(sender instanceof Player) {
+          sender.sendMessage(ChatColor.GRAY + "There is no change in the view distance." + ChatColor.RESET);
+        }
         return true;
       }
 
