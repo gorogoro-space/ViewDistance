@@ -72,7 +72,7 @@ public class ViewDistance extends JavaPlugin {
       }
       int newDistance = Integer.parseInt(args[1]);
 
-      if(newDistance < 3 || newDistance > 32) {
+      if(newDistance < 2 || newDistance > 32) {
         sendMsg(sender, "The view distance must be a number between 3 and 32.");
         return true;
       }
