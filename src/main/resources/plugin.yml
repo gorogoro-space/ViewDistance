@@ -3,7 +3,7 @@ version: 1.0
 api-version: 1.17
 description: Add a command to set the view distance.
 author: kubotan
-website: https://gorogoro.space/
+website: https://www.gorogoro.space/
 main: space.gorogoro.viewdistance.ViewDistance
 
 commands:
